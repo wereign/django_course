@@ -1,20 +1,22 @@
-body{
-    background-color: bisque;
+.firstDiv{
+ color: rebeccapurple;   
 }
 
-div{
-    background-color: blue;
-    border-color: aqua;
-    border-width: 4px;
-    border-style: double;
+.secondDiv{
+    color: aquamarine;
 }
 
-p{
-    color: yellow;
+#singledout{
+    color: yellowgreen;
+    text-decoration: line-through;
 }
 
-span{
-    background-color: red;
-    color: black;
+h3 + ul{
+    border: 4px dotted purple;
 }
-
+li a{
+    color: red;
+}
+li a[href="www.npr.org"]{
+    color: blueviolet;
+}
