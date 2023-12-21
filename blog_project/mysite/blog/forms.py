@@ -7,7 +7,6 @@ class PostForm(forms.ModelForm):
 
         model = Post
         fields = ('author','title','text')
-
         widgets = {
             'title':forms.TextInput(attrs={'class':'textinputlclass'}),
             'text':forms.Textarea(attrs={'class':'editable medium-editor-textarea postcontent'})
